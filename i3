@@ -163,9 +163,9 @@ bar {
 
 # ACPI audio keys control PulseAudio volume.
 # TODO: Show volume on the little bar at the screen bottom.
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 1 +5%
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 1 -5%
-bindsym XF86AudioMute        exec --no-startup-id pactl set-sink-mute 1 toggle
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5%
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5%
+bindsym XF86AudioMute        exec --no-startup-id pactl set-sink-mute 0 toggle
 
 bindsym XF86MonBrightnessUp   exec --no-startup-id ~/brightness.py +20
 bindsym XF86MonBrightnessDown exec --no-startup-id ~/brightness.py -20
