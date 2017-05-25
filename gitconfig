@@ -1,0 +1,7 @@
+[user]
+	email = weirdusername@gmail.com
+	name = Ahto
+[push]
+	default = simple
+[alias]
+	tree = log --graph --oneline --decorate --abbrev-commit
